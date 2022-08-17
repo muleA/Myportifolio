@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Header.css";
 import { Fade } from "react-reveal";
 import { NavLink, Link } from "react-router-dom";
-import { greeting, settings } from "../../portfolio.js";
+import { settings } from "../../portfolio.js";
 import { CgSun } from "react-icons/cg/";
 import { HiMoon } from "react-icons/hi";
 import { style } from "glamor";
@@ -69,7 +69,7 @@ function Header(props) {
           <NavLink to={link} tag={Link} className="logo">
             <span style={{ color: theme.text }}></span>
             <span className="logo-name" style={{ color: theme.text }}>
-              {greeting.logo_name}
+              Portfo<span style={{ color: theme.accentColor }}>lio.</span>
             </span>
             <span style={{ color: theme.text }}></span>
           </NavLink>
@@ -108,7 +108,7 @@ function Header(props) {
                 activeStyle={{ fontWeight: "bold" }}
                 style={{ borderRadius: 5, color: theme.text }}
               >
-                Experience
+                Skills and Experience
               </NavLink>
             </li>
             <li>
@@ -141,7 +141,7 @@ function Header(props) {
                 activeStyle={{ fontWeight: "bold" }}
                 style={{ borderRadius: 5, color: theme.text }}
               >
-                Journalify
+                Blog
               </a>
             </li>
             <button {...styles} onClick={changeTheme}>

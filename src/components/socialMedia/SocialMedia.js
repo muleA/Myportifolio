@@ -29,7 +29,7 @@ export default function socialMedia() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <i className="fab fa-google"></i>
+        <i className="fa fa-envelope"></i>
         <span></span>
       </a>
       <a
@@ -42,12 +42,12 @@ export default function socialMedia() {
         <span></span>
       </a>
       <a
-        href={socialMediaLinks.instagram}
+        href={socialMediaLinks.telegram}
         className="icon-button instagram"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <i className="fab fa-instagram"></i>
+        <i className="fab fa-telegram-plane"></i>
         <span></span>
       </a>
     </div>

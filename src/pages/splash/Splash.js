@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./Splash.css";
 import { Redirect } from "react-router-dom";
-
 function AnimatedSplash(props) {
   return (
     <div className="logo_wrapper">

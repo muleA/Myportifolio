@@ -4,9 +4,9 @@ import SocialMedia from "../../components/socialMedia/SocialMedia";
 import { greeting } from "../../portfolio";
 import { Fade } from "react-reveal";
 import { useHistory } from "react-router-dom";
-import FeelingProud from "./FeelingProud";
 import { style } from "glamor";
-
+import Typewriter from "typewriter-effect";
+import GreetingLottie from "./display_lottie";
 export default function Greeting(props) {
   const theme = props.theme;
   const history = useHistory();
@@ -32,9 +32,24 @@ export default function Greeting(props) {
                 <span>I'm </span>
                 <span style={{ color: theme.accentColor }}>
                   {greeting.full_name}.{" "}
+                  <Typewriter
+                    options={{
+                      strings: [
+                        "FrontEnd Developer",
+                        "AI & UI/Ux Enthusiast ",
+                        "ReactJS | NextJS | React Native",
+                        "Css3 |TailwindCss | Bootstrap",
+                        "Prolog | Figma | Php | Nodejs |Mysql",
+                      ],
+                      autoStart: true,
+                      loop: true,
+                    }}
+                  />
                 </span>
-                {greeting.subTitle}
+                {/*                 {greeting.subTitle}
+                 */}
               </p>
+
               <SocialMedia />
               <div className="portfolio-repo-btn-div">
                 <button
@@ -50,7 +65,7 @@ export default function Greeting(props) {
             </div>
           </div>
           <div className="greeting-image-div">
-            <FeelingProud theme={theme} />
+            <GreetingLottie animationPath="/lottie/skills/fullstack.json" />
           </div>
         </div>
       </div>

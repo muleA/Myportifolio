@@ -68,13 +68,13 @@
 }
 
 .instagram i {
-  background-color: #e4405f;
+  background-color: #229ed9;
   transition: all 0.2s ease-in-out;
 }
 
 .instagram i:hover {
   color: rgba(255, 255, 255, 1);
-  box-shadow: 0 5px 15px #e4405f;
+  box-shadow: 0 5px 15px #229ed9;
 }
 
 /* Media Query */

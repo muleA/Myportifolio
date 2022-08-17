@@ -10,37 +10,38 @@ const settings = {
 //Home Page
 const greeting = {
   title: "Hello.",
-  title2: "Hrishi",
-  logo_name: "hrishi.p()",
-  nickname: "hrishi1999 / picleric",
-  full_name: "Hrishi Patel",
-  subTitle:
-    "Full Stack Developer, Machine Learning Enthusiast. Always learning.",
+  title2: "Mulugeta",
+  logo_name: "Portifolio.",
+  nickname: "mule",
+  full_name: "Mulugeta Adamu",
+  subTitle: "FrontEnd Developer, AI Enthusiast. Always learning.",
   resumeLink:
     "https://drive.google.com/file/d/1IQge4pNhyj-RD2OOnEMrRPMODDUWeVDy/view?usp=sharing",
-  mail: "mailto:hrishipatel99@gmail.com",
+  mail: "mailto:mulugeta.adamu97@gmail.com",
 };
 
 const socialMediaLinks = {
   /* Your Social Media Link */
-  github: "https://github.com/hrishi1999",
-  linkedin: "https://www.linkedin.com/in/hrishi-patel-ba8476140/",
-  gmail: "hrishipatel99@gmail.com",
-  gitlab: " ",
-  facebook: " ",
-  twitter: "https://twitter.com/hrishi_55",
-  instagram: "https://www.instagram.com/picleric/",
+  github: "https://github.com/muleA",
+  linkedin: "https://www.linkedin.com/in/mulugeta-adamu/",
+  gmail: "mulugeta.adamu97@gmail.com",
+  facebook: "https://www.facebook.com/mulugeta.adamu.4",
+  twitter: "https://twitter.com/mulugetaAdamu97",
+  telegram: "https://t.me/mulugeta_adamu",
 };
 
 const skills = {
   data: [
     {
-      title: "Full Stack Development",
+      title: "FrontEnd Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive website front end using ReactJS",
-        "⚡ Developing mobile applications using Flutter and native Android",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "⚡ Building responsive website frontEnd using ReactJS | typescript | javascript | Html | Css | bootstrap| TailwindCss | Php",
+        "⚡ Developing mobile applications using ReactNative",
+        "⚡ Creating application backend in Mysql ",
+        "⚡ Creating Website Design Using Figma  ",
+        "⚡ Creating application backend in Mysql ",
+        "⚡ Developing System Requirement in diffrent diagrams ClassDiagram | ER Diagram |Activity Diagram ",
       ],
       softwareSkills: [
         {
@@ -79,27 +80,7 @@ const skills = {
             color: "#f89820",
           },
         },
-        {
-          skillName: "Dart",
-          fontAwesomeClassname: "simple-icons:dart",
-          style: {
-            color: "#29B0EE",
-          },
-        },
-        {
-          skillName: "Go",
-          fontAwesomeClassname: "simple-icons:go",
-          style: {
-            color: "#00A7D0",
-          },
-        },
-        {
-          skillName: "Visual Basic",
-          fontAwesomeClassname: "simple-icons:dot-net",
-          style: {
-            color: "#029FCE",
-          },
-        },
+
         {
           skillName: "C#",
           fontAwesomeClassname: "simple-icons:csharp",
@@ -108,13 +89,7 @@ const skills = {
             color: "#3776AB",
           },
         },
-        {
-          skillName: "C",
-          fontAwesomeClassname: "simple-icons:c",
-          style: {
-            color: "#E94E32",
-          },
-        },
+
         {
           skillName: "C++",
           fontAwesomeClassname: "simple-icons:cplusplus",
@@ -145,27 +120,7 @@ const skills = {
             color: "#339933",
           },
         },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#439743",
-          },
-        },
-        {
-          skillName: "GraphQL",
-          fontAwesomeClassname: "simple-icons:graphql",
-          style: {
-            color: "#DE33A6",
-          },
-        },
-        {
-          skillName: "Android App Development",
-          fontAwesomeClassname: "simple-icons:android",
-          style: {
-            color: "#3DDC84",
-          },
-        },
+
         {
           skillName: "Flutter",
           fontAwesomeClassname: "simple-icons:flutter",
@@ -198,133 +153,24 @@ const skills = {
         },
       ],
     },
-    {
-      title: "Data Science & AI",
-      fileName: "DataScienceImg",
-      skills: [
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Certifications by deeplearning.ai and Stanford Online",
-        "⚡ Experience with 10+ Projects",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
-          style: {
-            backgroundColor: "white",
-            color: "#D00000",
-          },
-        },
-        {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
-          },
-        },
-        {
-          skillName: "Pandas",
-          fontAwesomeClassname: "simple-icons:pandas",
-          style: {
-            backgroundColor: "transparent",
-            color: "#6E6E6E",
-          },
-        },
-      ],
-    },
-    {
-      title: "Cloud Infra-Architecture",
-      fileName: "CloudInfraImg",
-      skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Experience hosting and managing websites",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Experience with Continuous Integration",
-      ],
-      softwareSkills: [
-        {
-          skillName: "GCP",
-          fontAwesomeClassname: "simple-icons:googlecloud",
-          style: {
-            color: "#4285F4",
-          },
-        },
-        {
-          skillName: "AWS",
-          fontAwesomeClassname: "simple-icons:amazonaws",
-          style: {
-            color: "#FF9900",
-          },
-        },
-        {
-          skillName: "Netlify",
-          fontAwesomeClassname: "simple-icons:netlify",
-          style: {
-            color: "#38AFBB",
-          },
-        },
-        {
-          skillName: "Heroku",
-          fontAwesomeClassname: "simple-icons:heroku",
-          style: {
-            color: "#6863A6",
-          },
-        },
-        {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
-          style: {
-            color: "#FFCA28",
-          },
-        },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#47A248",
-          },
-        },
-        {
-          skillName: "Docker",
-          fontAwesomeClassname: "simple-icons:docker",
-          style: {
-            color: "#1488C6",
-          },
-        },
-      ],
-    },
   ],
 };
 
 const degrees = {
   degrees: [
     {
-      title: "SAL Engineering and Technical Institute",
-      subtitle: "B.Tech. in Computer Engineering",
-      logo_path: "sal.png",
-      alt_name: "SETI",
+      title:
+        "Addis Ababa University School of Natural and Computational Science",
+      subtitle: "BSC in Information Systems",
+      logo_path: "aau2.jpg",
+      alt_name: "AAU Logo",
       duration: "2017 - 2021",
       descriptions: [
-        "⚡ I have studied core subjects like Data Structures, DBMS, Networking, Security, etc.",
-        "⚡ I have also completed various online courses for ML/DL, Web Development, Mobile App Development, etc.",
-        "⚡ I have implemented several projects based on what I've learnt under my Computer Engineering course. ",
+        "⚡ I have studied core subjects like Data Structures and Algorithm, DBMS, Networking, Security etc.",
+        "⚡ I have also completed various online courses for  Web Development, Mobile App Development, etc.",
+        "⚡ I have implemented several projects based on what I've learnt under My Information System course. ",
       ],
-      website_link: "https://www.sal.edu.in/",
+      website_link: "http://www.aau.edu.et/",
     },
   ],
 };
@@ -332,115 +178,59 @@ const degrees = {
 const certifications = {
   certifications: [
     {
-      title: "Deep Learning Specialization",
-      subtitle: "deeplearning.ai",
-      logo_path: "deeplearning_ai_logo.png",
+      title: "Zero To Hero React js Mastery e-degree Course",
+      subtitle: "FrontEnd Development",
+      logo_path: "udemy.png",
       certificate_link:
-        "https://coursera.org/share/737a9587023c666b8e6cb303157aaeba",
-      alt_name: "deeplearning.ai",
-      color_code: "#47A048",
-    },
-    {
-      title: "Sequence Models",
-      subtitle: "deeplearning.ai",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/FM5AKEZA9NUY",
-      alt_name: "deeplearning.ai",
-      color_code: "#F6B808",
-    },
-    {
-      title: "Convolutional Neural Networks",
-      subtitle: "deeplearning.ai",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/U8BLDNUT9UUM",
-      alt_name: "deeplearning.ai",
-      color_code: "#2AAFED",
-    },
-    {
-      title: "Structuring Machine Learning Projects",
-      subtitle: "deeplearning.ai",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/YLC25SJQKH3Y",
-      alt_name: "deeplearning.ai",
-      color_code: "#E2405F",
-    },
-    {
-      title: "Machine Learning",
-      subtitle: "deeplearning.ai",
-      logo_path: "stanford_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/records/72KY93DT82MP",
-      alt_name: "Stanford University",
-      color_code: "#8C151599",
-    },
-    {
-      title: "Neural Networks and Deep Learning",
-      subtitle: "deeplearning.ai",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/records/25JXRB2RWHRX",
-      alt_name: "Google",
-      color_code: "#7A7A7A",
-    },
-    {
-      title: "Improving Deep Neural Networks",
-      subtitle: "deeplearning.ai",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/records/PKR9M9LQ3JWC",
-      alt_name: "Google",
-      color_code: "#0C9D5899",
-    },
-    {
-      title: "Android Developer Nanodegree",
-      subtitle: "Part of Google India Scholarship Program",
-      logo_path: "100.png",
-      certificate_link: "https://graduation.udacity.com/confirm/HLE7K5V3",
-      alt_name: "Google",
+        "https://www.udemy.com/certificate/UC-e6b2bb8d-6efe-4246-9f41-c4e2e6f1ae91/",
+      alt_name: "FrontEndDevelopent",
       color_code: "#C5E2EE",
     },
     {
-      title: "Google Summer of Code 2019",
-      subtitle: "Google / Sugar Labs",
-      logo_path: "google_logo.png",
-      certificate_link: " ",
-      alt_name: "Google",
-      color_code: "#ffc475",
+      title: "Android Development WorkShop Complation",
+      subtitle: "Addis Ababa University",
+      logo_path: "aau2.jpg",
+      certificate_link:
+        "https://drive.google.com/drive/folders/1jhQEqVhCK5zO7dji9PWqR2vPqqtF5sh6",
+      alt_name: "FrontEndDevelopent",
+      color_code: "#C5E2EE",
     },
     {
-      title: "Google Code-In Student",
-      subtitle: "2014-2017",
-      logo_path: "google_logo.png",
-      certificate_link: " ",
-      alt_name: "Google",
-      color_code: "#1e70c1",
+      title: "Network Development Group",
+      subtitle: "NDG Linux Unhatched Course",
+      logo_path: "ndg.png",
+      certificate_link:
+        "https://drive.google.com/drive/folders/1jhQEqVhCK5zO7dji9PWqR2vPqqtF5sh6",
+      alt_name: "NDG",
+      color_code: "#C5E2EE",
     },
     {
-      title: "Google Summer of Code Mentor",
-      subtitle: "2017 / 2018 / 2020",
-      logo_path: "google_logo.png",
-      certificate_link: " ",
-      alt_name: "Google",
-      color_code: "#ffbfae",
+      title: "Slider Puzzle Porject Developed with Teams",
+      subtitle: "Addis Ababa University",
+      logo_path: "aau2.jpg",
+      certificate_link:
+        "https://drive.google.com/drive/folders/1jhQEqVhCK5zO7dji9PWqR2vPqqtF5sh6",
+      alt_name: "FrontEndDevelopent",
+      color_code: "#C5E2EE",
     },
     {
-      title: "InOut 4.0 Winner #2",
-      subtitle: "2017",
-      logo_path: "ino.png",
-      certificate_link: " ",
-      alt_name: "InOut",
-      color_code: "#fffbf3",
+      title:
+        "FrontEnd and Backednd Development Trainig with Angular and Laravel",
+      subtitle: "Addis Ababa University",
+      logo_path: "aau2.jpg",
+      certificate_link:
+        "https://drive.google.com/drive/folders/1jhQEqVhCK5zO7dji9PWqR2vPqqtF5sh6",
+      alt_name: "FrontEndDevelopent",
+      color_code: "#C5E2EE",
     },
     {
-      title: "Google Code-In Mentor",
-      subtitle: "2017 / 2018 / 2019",
-      logo_path: "google_logo.png",
-      certificate_link: " ",
-      alt_name: "Google",
-      color_code: "#b190b0",
+      title: "Slider Puzzle Porject Developed with Teams",
+      subtitle: "Addis Ababa University",
+      logo_path: "aau2.jpg",
+      certificate_link:
+        "https://drive.google.com/drive/folders/1jhQEqVhCK5zO7dji9PWqR2vPqqtF5sh6",
+      alt_name: "FrontEndDevelopent",
+      color_code: "#C5E2EE",
     },
   ],
 };
@@ -579,7 +369,7 @@ const projectsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "hrishi2.png",
+    profile_image_path: "mulugeta.png",
     description:
       "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
   },
@@ -587,7 +377,7 @@ const contactPageData = {
     title: "Blogs",
     subtitle:
       "I don't blog frequently but when I do something awesome, I do try to document it so it can be helpful to others. I write on Medium.",
-    link: "https://medium.com/@hrishipatel99",
+    link: "#",
     avatar_image_path: "blogs_image.svg",
   },
 };
@@ -598,7 +388,8 @@ const projects = {
       id: "50",
       name: "Journalify",
       url: "https://play.google.com/store/apps/details?id=com.picle.journalify",
-      description: "You personal journaling companion, goals & daily challenges!",
+      description:
+        "You personal journaling companion, goals & daily challenges!",
       languages: [
         {
           name: "Flutter",
