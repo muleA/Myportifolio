@@ -133,17 +133,19 @@ function Header(props) {
                 Contact and Resume
               </NavLink>
             </li>
+
             <li>
-              <a
+              <NavLink
                 className="cr"
-                href="https://play.google.com/store/apps/details?id=com.picle.journalify"
+                to="/blog"
                 tag={Link}
                 activeStyle={{ fontWeight: "bold" }}
                 style={{ borderRadius: 5, color: theme.text }}
               >
                 Blog
-              </a>
+              </NavLink>
             </li>
+
             <button {...styles} onClick={changeTheme}>
               {icon}
             </button>
