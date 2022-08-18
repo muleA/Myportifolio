@@ -134,18 +134,6 @@ function Header(props) {
               </NavLink>
             </li>
 
-            <li>
-              <NavLink
-                className="cr"
-                to="/blog"
-                tag={Link}
-                activeStyle={{ fontWeight: "bold" }}
-                style={{ borderRadius: 5, color: theme.text }}
-              >
-                Blog
-              </NavLink>
-            </li>
-
             <button {...styles} onClick={changeTheme}>
               {icon}
             </button>

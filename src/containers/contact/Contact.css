@@ -5,6 +5,9 @@
 .contact-div-main > * {
   flex: 1;
 }
+.profile-pic {
+  box-shadow: none;
+}
 
 .contact-title {
   font-size: 65px;
@@ -73,6 +76,9 @@
     font-size: 20px;
   }
   .contact-image-div {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
     display: none;
   }
 }
