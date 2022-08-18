@@ -12,9 +12,9 @@ function Header(props) {
 
   const styles = style({
     cursor: "pointer",
-    height: "45px",
-    width: "45px",
-    marginRight: "5px",
+    height: "40px",
+    width: "40px",
+    marginRight: "2px",
     marginLeft: "15px",
     paddingTop: "5px",
     borderRadius: "50%",
@@ -69,7 +69,7 @@ function Header(props) {
           <NavLink to={link} tag={Link} className="logo">
             <span style={{ color: theme.text }}></span>
             <span className="logo-name" style={{ color: theme.text }}>
-              Portfo<span style={{ color: theme.accentColor }}>lio.</span>
+              &lt;Mulugeta/&gt;
             </span>
             <span style={{ color: theme.text }}></span>
           </NavLink>

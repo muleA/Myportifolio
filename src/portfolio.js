@@ -224,11 +224,11 @@ const certifications = {
       color_code: "#C5E2EE",
     },
     {
-      title: "Slider Puzzle Porject Developed with Teams",
-      subtitle: "Addis Ababa University",
-      logo_path: "aau2.jpg",
+      title: "FrontEnd Web Development Ultimate Course 2022",
+      subtitle: "FrontEnd Development",
+      logo_path: "udemy.png",
       certificate_link:
-        "https://drive.google.com/drive/folders/1jhQEqVhCK5zO7dji9PWqR2vPqqtF5sh6",
+        "https://www.udemy.com/certificate/UC-1714581a-05b5-4b13-982f-3db8295557e8/",
       alt_name: "FrontEndDevelopent",
       color_code: "#C5E2EE",
     },

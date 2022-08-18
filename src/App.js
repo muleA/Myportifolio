@@ -29,7 +29,7 @@ function App() {
           {useCursor ? (
             <CursorProvider
               color={themes[theme].secondaryText}
-              ringSize={25}
+              ringSize={10}
               transitionTime={75}
             >
               <Main theme={themes[theme]} setTheme={setTheme} />
