@@ -18,16 +18,13 @@ function App() {
   }, []);
 
   const [theme, setTheme] = useState(localStorage.getItem("theme") || "dark");
-  const useCursor = settings.useCustomCursor;
 
   return (
     <ThemeProvider theme={themes[theme]}>
       <>
         <GlobalStyles />
         <div>
-         
-              <Main theme={themes[theme]} setTheme={setTheme} />
-            
+          <Main theme={themes[theme]} setTheme={setTheme} />
         </div>
       </>
     </ThemeProvider>
