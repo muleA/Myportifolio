@@ -58,7 +58,8 @@ function Contact(props) {
                 See my Resume
               </a>
               
-              <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="HORIZONTAL" data-vanity="mulugeta-adamu" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://et.linkedin.com/in/mulugeta-adamu?trk=profile-badge">Mulugeta Adamu</a></div>
+              <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="HORIZONTAL" data-vanity="mulugeta-adamu" data-version="v1"><a                 {...styles}
+  class="badge-base__link LI-simple-link" href="https://et.linkedin.com/in/mulugeta-adamu?trk=profile-badge">Mulugeta Adamu</a></div>
               
             </div>
           </div>
