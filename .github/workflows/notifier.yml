@@ -19,8 +19,4 @@ jobs:
         message: |
             PushedBy: ${{ github.actor }}
             Commit message: ${{ github.event.commits[0].message }}
-            name:       File Outlined
-    id:         file-o
-    unicode:    f016
-            jobStatus: ${{ job.status }}
             Project Url: portifolio
