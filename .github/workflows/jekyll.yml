@@ -23,5 +23,5 @@ jobs:
       if: always()
       with:
         chat: ${{ 535003187 }} # user id or channel name secret
-        token: ${{5439546841:AAFqV4DJBoVYIupDCyV8dToaDoVZxuPdxZU}} # token secret
+        token: ${{secrets.MULUGETA}} # token secret
         status: ${{ job.status }} # do not modify this line
