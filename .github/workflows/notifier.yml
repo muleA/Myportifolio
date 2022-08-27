@@ -17,9 +17,10 @@ jobs:
         to: ${{ secrets.USERID }}
         token: ${{ secrets.MULUGETA}}
         message: |
-            ${{ github.actor }} created commit:
+            PushedBy: ${{ github.actor }}
             Commit message: ${{ github.event.commits[0].message }}
-            
-            Repository: ${{ github.repository }}
-            
-            See changes: https://github.com/${{ github.repository }}/commit/${{github.sha}}
+            name:       File Outlined
+    id:         file-o
+    unicode:    f016
+            jobStatus: ${{ job.status }}
+            Project Url: portifolio
