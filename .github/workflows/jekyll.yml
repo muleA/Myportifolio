@@ -18,7 +18,8 @@ jobs:
         docker run \
         -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
         jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
-   - uses: yanzay/notify-telegram@v0.1.0
+        - name: Notify Telegram
+  uses: yanzay/notify-telegram@v0.1.0
       if: always()
       with:
         chat: ${{ 535003187 }} # user id or channel name secret
