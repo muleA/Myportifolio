@@ -7,7 +7,6 @@ import { Fade } from "react-reveal";
 import "./ContactComponent.css";
 import { greeting, contactPageData } from "../../portfolio.js";
 import { style } from "glamor";
-<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
 const ContactData = contactPageData.contactSection;
 
 function Contact(props) {
@@ -58,8 +57,7 @@ function Contact(props) {
                 See my Resume
               </a>
               
-              <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="HORIZONTAL" data-vanity="mulugeta-adamu" data-version="v1"><a                 {...styles}
-  class="badge-base__link LI-simple-link" href="https://et.linkedin.com/in/mulugeta-adamu?trk=profile-badge">Mulugeta Adamu</a></div>
+   
               
             </div>
           </div>
