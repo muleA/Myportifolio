@@ -12,6 +12,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+        - uses: yanzay/notify-telegram@v0.1.0
+      if: always()
+      with:
+        chat: ${{ 535003187 }} # user id or channel name secret
+        token: ${{ 1729667460:AAFME2XVnkkZytKYwGfHEYaPWJbIslXdUyQ }} # token secret
+        status: ${{ job.status }} # do not modify this line
     - uses: actions/checkout@v3
     - name: Build the site in the jekyll/builder container
       run: |
