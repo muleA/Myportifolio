@@ -17,10 +17,12 @@ jobs:
         to: ${{ secrets.USERID }}
         token: ${{ secrets.MULUGETA}}
         message: |
-            PushedBy: ${{ github.actor }}
+          *bold \*PushedBy*: ${{ github.actor }}
             Commit message: ${{ github.event.commits[0].message }}
-            Project Url: portifolio
-            Branch: *${{ github.ref }}* 
-            Repository: *${{ github.repository }}* 
-            Owner: *${{ github.repository_owner }}*
+            Repository: ${{ github.repository }}
+            Owner: ${{ github.repository_owner }}
+            EventName: ${{ github.github.event.name}}
+            location: '24.9163213 121.1424972'
+            See changes: https://github.com/${{ github.repository }}/commit/${{github.sha}}
+
 
