@@ -22,7 +22,7 @@ jobs:
             Repository: ${{ github.repository }}
             Owner: ${{ github.repository_owner }}
             EventName: ${{ github.github.event.name}}
-            location: '24.9163213 121.1424972'
+            location: 24.9163213 121.1424972
             See changes: https://github.com/${{ github.repository }}/commit/${{github.sha}}
 
 
