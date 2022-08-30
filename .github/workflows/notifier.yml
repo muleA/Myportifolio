@@ -20,3 +20,7 @@ jobs:
             PushedBy: ${{ github.actor }}
             Commit message: ${{ github.event.commits[0].message }}
             Project Url: portifolio
+            Branch: *${{ github.ref }}* 
+            Repository: *${{ github.repository }}* 
+            Owner: *${{ github.repository_owner }}*
+
