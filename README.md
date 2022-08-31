@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Mulugeta Adamu</h1>
 <h3 align="center">A passionate frontend developer from Ethiopia</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=mulea&label=Profile%20views&color=0e75b6&style=flat" alt="mulea" /> </p>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=muleA&label=Profile%20views&color=0e75b6&style=flat" alt="mulea" /> </p>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=mulea" alt="mulea" /></a> </p>
 
