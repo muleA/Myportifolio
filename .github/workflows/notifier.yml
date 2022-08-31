@@ -17,7 +17,7 @@ jobs:
         to: ${{ secrets.USERID }}
         token: ${{ secrets.MULUGETA}}
         message: |
-            PushedBy: **${{ github.actor }}**
+            PushedBy: <b>${{ github.actor }}</b>
             Commit message: ${{ github.event.commits[0].message }}
             Repository: ${{ github.repository }}
             Owner: ${{ github.repository_owner }}
