@@ -320,14 +320,7 @@ const contactPageData = {
     profile_image_path: "mulugeta.png",
     description:
       "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
-  },
-  blogSection: {
-    title: "Blogs",
-    subtitle:
-      "I don't blog frequently but when I do something awesome, I do try to document it so it can be helpful to others. I write on Medium.",
-    link: "#",
-    avatar_image_path: "blogs_image.svg",
-  },
+  }
 };
 
 const projects = {
@@ -340,11 +333,11 @@ const projects = {
       languages: [
         {
           name: "Html",
-          iconifyClass: "simple-icons-html5",
+          iconifyClass: "typcn:html5",
         },
         {
           name: "Css",
-          iconifyClass: "simple-icons-css3",
+          iconifyClass: "typcn:css3",
         },
       ],
     },
@@ -358,11 +351,11 @@ const projects = {
       languages: [
         {
           name: "Html",
-          iconifyClass: "logos-html5",
+          iconifyClass: "typcn:html5",
         },
         {
           name: "Css",
-          iconifyClass: "logos-css3",
+          iconifyClass: "typcn:css3",
         },
         {
           name: "Java",
@@ -370,7 +363,7 @@ const projects = {
         },
         {
           name: "Prolog",
-          iconifyClass: "logos-prolog",
+          iconifyClass: "typcn:prolog",
         },
       ],
     },
@@ -397,6 +390,14 @@ const projects = {
           name: "ReactJS",
           iconifyClass: "logos-react",
         },
+        {
+          name: "Html",
+          iconifyClass: "typcn:html5",
+        },
+        {
+          name: "Css",
+          iconifyClass: "typcn:css3",
+        },
       ],
     },
 
@@ -412,7 +413,7 @@ const projects = {
         },
         {
           name: "NodeJs",
-          iconifyClass: "logos-nodeJs",
+          iconifyClass: "typcn:nodejs",
         },
         {
           name: "NextJs",
@@ -429,11 +430,11 @@ const projects = {
       languages: [
         {
           name: "HTMl",
-          iconifyClass: "logos-Html",
+          iconifyClass: "typcn:html5",
         },
         {
           name: "Css",
-          iconifyClass: "logos-css",
+          iconifyClass: "typcn:html5",
         },
         {
           name: "Javascript",
@@ -441,7 +442,7 @@ const projects = {
         },
         {
           name: "Bootstrap",
-          iconifyClass: "logos-Bootstrap",
+          iconifyClass: "typcn:bootstrap",
         },
         {
           name: "Php",
