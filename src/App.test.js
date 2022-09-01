@@ -1,8 +1,11 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import App from "./App";
-it("renders without crashing", () => {
-  const div = document.createElement("div");
-  ReactDOM.render(<App />, div);
-  ReactDOM.unmountComponentAtNode(div);
+import { render } from "@testing-library/react";
+describe("App Component", function () {
+  it("should have hello world message", function () {
+    let { getByText } = render(<App />);
+    expect(getByText("Hello world React!")).toMatchInlineSnapshot(
+      <h1>Hello world React!</h1>
+    );
+  });
 });
