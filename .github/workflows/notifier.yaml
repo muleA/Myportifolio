@@ -20,10 +20,8 @@ jobs:
         to: ${{ secrets.USERID }}
         token: ${{ secrets.MULUGETA}}
         message: |
-            # PushedBy: ${{ github.actor }}
-            type:${{github.type}}
+            PushedBy: ${{ github.actor }}
             Commit message: ${{ github.event.commits[0].message }}
-            Project Url: portifolio
             Repository: ${{ github.repository }}
 
 
