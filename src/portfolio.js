@@ -186,31 +186,30 @@ const certifications = {
       alt_name: "FrontEndDevelopent",
       color_code: "#C5E2EE",
     },
-       {
+    {
       title: "Hands-On React. Build advanced React JS Frontend with expert",
       subtitle: "FrontEnd Development",
       logo_path: "udemy.png",
       certificate_link:
-"https://www.udemy.com/certificate/UC-0cc12f84-6366-4fe5-9b33-f49baf63583c/",
-         alt_name: "FrontEndDevelopent",
+        "https://www.udemy.com/certificate/UC-0cc12f84-6366-4fe5-9b33-f49baf63583c/",
+      alt_name: "FrontEndDevelopent",
       color_code: "#C5E2EE",
     },
-        {
+    {
       title: "Practical Next.js & React - Build a real WebApp with Next.js",
       subtitle: "FrontEnd Development",
       logo_path: "udemy.png",
       certificate_link:
-"https://www.udemy.com/certificate/UC-ccbaf109-bc12-47cf-a658-cc2f2abb5537/",
-         alt_name: "FrontEndDevelopent",
+        "https://www.udemy.com/certificate/UC-ccbaf109-bc12-47cf-a658-cc2f2abb5537/",
+      alt_name: "FrontEndDevelopent",
       color_code: "#C5E2EE",
     },
-         {
+    {
       title: "Become A Certified Web Developer From Scratch",
       subtitle: "FrontEnd Development",
       logo_path: "edu.png",
-      certificate_link:
-"https://www.eduonix.com/certificate/ef641084ef",
-         alt_name: "FullStack Web Developent",
+      certificate_link: "https://www.eduonix.com/certificate/ef641084ef",
+      alt_name: "FullStack Web Developent",
       color_code: "#C5E2EE",
     },
     {
@@ -320,7 +319,7 @@ const contactPageData = {
     profile_image_path: "mulugeta.png",
     description:
       "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
-  }
+  },
 };
 
 const projects = {

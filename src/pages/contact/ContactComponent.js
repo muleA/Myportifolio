@@ -56,9 +56,6 @@ function Contact(props) {
               >
                 See my Resume
               </a>
-              
-   
-              
             </div>
           </div>
         </Fade>

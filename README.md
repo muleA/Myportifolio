@@ -22,6 +22,7 @@
 - 📄 Know about my experiences [https://mulugeta.vercel.app/#/](https://mulugeta.vercel.app/#/)
 
 ### Blogs posts
+
 <!-- BLOG-POST-LIST:START -->
 <!-- BLOG-POST-LIST:END -->
 
