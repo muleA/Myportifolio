@@ -1,0 +1,22 @@
+name: Notifier
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+
+  notifyTelegram:
+    runs-on: ubuntu-latest
+    steps:
+    - name: send custom message
+      uses: appleboy/telegram-action@master
+      with:
+        to: ${{ secrets.USERID }}
+        token: ${{ secrets.MULUGETA}}
+        message: |
+            PushedBy: ${{ github.actor }}
+            Commit message: ${{ github.event.commits[0].message }}
+            Project Url: portifolio
