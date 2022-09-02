@@ -23,8 +23,7 @@ jobs:
             PushedBy: ${{ github.actor }}
             Commit message: ${{ github.event.commits[0].message }}
             Repository: ${{ github.repository }}
-            entry: >
-     <strong>{{style}}</strong><br />
-     <span style="margin-left&#58;10px">length: {{length}}</span><br />
+            entry: ><strong>{{style}}</strong><br />
+            <span style="margin-left&#58;10px">length: {{length}}</span><br />
 
 
