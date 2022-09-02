@@ -21,6 +21,7 @@ jobs:
         token: ${{ secrets.MULUGETA}}
         message: |
             PushedBy: ${{ github.actor }}
+            {% include note.html content="Add your note here." %}
             Commit message: ${{ github.event.commits[0].message }}
             Repository: ${{ github.repository }}
 
