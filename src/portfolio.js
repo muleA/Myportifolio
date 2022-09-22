@@ -258,6 +258,15 @@ const certifications = {
       alt_name: "FrontEndDevelopent",
       color_code: "#C5E2EE",
     },
+     {
+      title: "Master Tailwind Css Quickly",
+      subtitle: "FrontEnd Development",
+      logo_path: "udemy.png",
+      certificate_link:
+        "https://www.udemy.com/certificate/UC-93557ca0-8604-4d46-bdd8-ec5f9992bc8e/",
+      alt_name: "FrontEndDevelopent",
+      color_code: "#C5E2EE",
+    },
   ],
 };
 
