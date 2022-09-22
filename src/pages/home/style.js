@@ -2,11 +2,12 @@ import styled from "styled-components";
 
 export const Heading = styled.h1`
   text-align: center;
-  color: green;
+  color: orange;
+  border-radius: 10px;
 `;
 
 export const Content = styled.div`
-  overflowy: scroll;
+  overflow: scroll;
   height: 2500px;
 `;
 
@@ -17,9 +18,10 @@ export const Button = styled.div`
   z-index: 99;
   cursor: pointer;
   font-size: 40px;
-  background-color: inherit;
+  background-color: orange;
   display: inline-block;
+  border-radius: 100px;
   padding: 10px;
   cursor: pointer;
-  color: green;
+  color: black;
 `;
